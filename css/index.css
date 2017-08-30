@@ -1,0 +1,68 @@
+* {
+    font-family: ChantelliAntiquaRegular, Helvetica, sans-serif;
+}
+
+body {
+    z-index: 9999999;
+    width: 100%;
+    background: url("../img/bjt.png") no-repeat;
+    background-size: 100%;
+    position: absolute;
+}
+
+.box {
+    width: 400px;
+    height: 500px;
+    position: relative;
+    overflow-y: auto;
+    overflow-x: hidden;
+    margin: 50px auto;
+}
+.page-head {
+    width: 100%;
+    height: 0.8rem;
+    position: fixed;
+    text-align: center;
+    top: 18px;
+    font-size: 18px;
+    color: red;
+}
+
+.box .page-content {
+    padding: 0.32rem 29px 0px 0.32rem;
+    font-size: 18px;
+    color: #ffffff;
+    text-align: justify;
+    margin: 0 auto;
+}
+
+.box .page-content .page-txt {
+
+}
+.box .page-content .page-txt > p {
+    text-indent: 30px;
+    margin-top: 0.8rem;
+}
+.box .page-content .page-txt .page-textcolor1 {
+    color: #04F404;
+}
+
+.box .page-content .page-txt .page-textcolor2 {
+    color: #B90214;
+}
+
+.box .page-content .page-txt .page-textcolor3 {
+    color: #ED0ADC;
+}
+
+.box .page-content .page-txt .page-textcolor4 {
+    color: #491BD8;
+}
+
+.box .page-content .page-txt .page-textcolor5 {
+    color: #00d0d6;
+}
+
+.box .page-content .page-txt .page-textcolor6 {
+    color: rgb(255, 231, 0);
+}
