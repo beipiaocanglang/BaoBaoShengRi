@@ -5,7 +5,7 @@
 body {
     z-index: 9999999;
     width: 100%;
-    background: url("../img/bjt.png") no-repeat;
+    background: url("../img/background-image/bjt.png") no-repeat;
     background-size: 100%;
     position: absolute;
 }
